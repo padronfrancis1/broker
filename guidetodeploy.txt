@@ -16,3 +16,16 @@ git checkout
 git reset --hard origin/master
 	will remove all commits not in origin/master where origin is the repo name and master is the name of the branch.
 	** it deleted everything - please do not do this
+
+Took a copy of the back up
+git init
+git add .
+git commit -m "update"
+git push orgin master
+
+Result was rejected
+
+sudo=substitute user
+
+_________________________
+new repository
