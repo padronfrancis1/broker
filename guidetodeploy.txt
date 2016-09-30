@@ -1,0 +1,18 @@
+user1
+deploy
+
+Update
+Install node
+Install flightplan
+create deploy user
+log in
+create password-less
+create ssh (https://www.howtoforge.com/linux-basics-how-to-install-ssh-keys-on-the-shell)
+log in
+
+resolving issue can not commit
+git fetch
+git checkout
+git reset --hard origin/master
+	will remove all commits not in origin/master where origin is the repo name and master is the name of the branch.
+	** it deleted everything - please do not do this
