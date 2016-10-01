@@ -27,5 +27,5 @@ Result was rejected
 
 sudo=substitute user
 
-_________________________
+____________________
 new repository

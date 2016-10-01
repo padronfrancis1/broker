@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/sidenav.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
     <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
 
 
@@ -105,9 +106,9 @@
 
 </div>
 
-<div id="life_" style="padding: 0px 0px;width: 100%;">
+<div id="image-slider">
 
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" style="padding: 0px 0px;">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
       <!-- Indicators -->
       <!-- <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -119,7 +120,6 @@
 
       <div class="carousel-inner" role="listbox" style="padding: 0px 0px;margin-bottom: 0px;">
         <div class="item active" style="padding: 0px 0px;">
-          
           
           <img src="assets/img/Life-insurance.jpg" alt="my alberta broker - life Insurance">
         </div>
@@ -140,9 +140,6 @@
         <div class="item">
           <img src="assets/img/my alberta broker.jpg" alt="my alberta broker">
         </div>
-
-
-        
 
       </div>
 
@@ -171,34 +168,42 @@
 
 <div id="quote">
   <div class="quote">
-    <div class="container-fluid">
+    <div class="container-fluid"  style="padding:30px 10px;">
       <div class="row">
-      <h1 style="margin-top: 50px;color: #fff;font-family:pillgothic;padding: 4% 5%;"> QUOTE - CAPTION HERE </h1>
-        <div class="col-lg-6" style="margin-top: 0px;">
+      
+        <div class="col-lg-6 col-container">
 
-          <form class="form-horizontal" method="post" action="/contactus" data-toggle="validator" data-toggle="validator" role="form" id="contactfomr">
+          <form class="form-horizontal" method="post" action="/contactus" data-toggle="validator" data-toggle="validator" role="form" id="contactfomr" style="padding: 0px 0px;">
             <div class="col-md-10">
-                <div class="modal-header" style="text-align: center;">
+                <div class="modal-header" style="padding: 0px 0px;">
                      <!-- <h5>Get a link on your phone</h5>  -->
-
-
-
-                   <div class="form-group">
-                      <!-- <span class="col-md-1 col-md-offset-1 text-center" style="font-size: 5em;"><i class="fa fa-user bigicon"></i></span> -->
-                      <div class="col-md-10">
-                         <label for="fname" style="float: left;">Name:</label>
-                        <input id="fname" name="name" type="text" placeholder="First and Last Name" class="form-control input-lg">
-                      </div>
+                     <div class="form-group">
+                    <h1 style=""> QUOTE - CAPTION HERE </h1>
                     </div>
+
+
+                   <!-- <div class="form-group" style="float: left;padding: 0px 0px;">
+                    <div class="col-md-10">
+                       <label for="fname" style="float: left;">Name:</label>
+                      <input id="fname" name="name" type="text" placeholder="First and Last Name" class="form-control input-lg">
+                    </div>
+                  </div> -->
+
+                  <div class="form-group">
+                      <div class="col-md-10">
+                        <label for="fname" style="float: left;">Name:</label>
+                        <input class="form-control input-lg" id="fname" placeholder="First and Last Name" name="name">
+                      
+                    </div>
+                  </div>
 
                     <div class="form-group">
-                      <!-- <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span> -->
-                        <div class="col-md-10">
-                          <label for="femail" style="float: left;">Email:</label>
-                          <input type="email" class="form-control input-lg" id="femail" placeholder="Email Address"  data-error="The email address is invalid" name="email">
-                        
-                      </div>
+                      <div class="col-md-10">
+                        <label for="femail" style="float: left;">Email:</label>
+                        <input type="email" class="form-control input-lg" id="femail" placeholder="Email Address"  data-error="The email address is invalid" name="email">
+                      
                     </div>
+                  </div>
 
                     <div class="form-group">
                       <!-- <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span> -->
@@ -243,8 +248,13 @@
                       </div>
                     </div>
 
-                    <span class="input-group-btn" style="float: left;">
-                      <button class="btn btn-default" type="submit">SUBMIT</button>
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-envelope" aria-hidden="true"></i>
+ E-MAIL</button>
+                    </span>
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-envelope" aria-hidden="true"> SMS</i>
+</button>
                     </span>
 
                 </div>
